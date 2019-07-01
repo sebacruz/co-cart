@@ -35,7 +35,7 @@ Yes, it's free. But here's what you should _really_ care about:
 * The code adheres to the [WordPress Coding Standards](https://codex.wordpress.org/WordPress_Coding_Standards) and follows best practices and conventions.
 * There is nothing else out there.
 
-> At this time, none of the official WooCommerce library wrappers can be used with this REST API as they all require authentication which makes it difficult to use along with the other official REST API endpoints that WooCommerce provides.
+> None of the official WooCommerce library wrappers can be used with this REST API as they all require authentication which makes it difficult to use along with the other official REST API endpoints that WooCommerce provides.
 
 ### What's the Catch?
 
@@ -45,9 +45,11 @@ This is a non-commercial plugin. As such:
 * Support inquiries may not be answered in a timely manner.
 * Critical issues may not be resolved promptly.
 
-If you have a customization/integration requirement then I'd love to [hear from you](mailto:mailme@sebastiendumont.com)!
+If you have a customization/integration requirement then I'd love to [hear from you](https://cocart.xyz/feedback/).
 
 Please understand that this repository is not a place to seek help with configuration-related issues. Use it to report bugs or propose improvements.
+
+If you are looking for ways to customize CoCart, [check out the tweaks repository](https://github.com/co-cart/co-cart-tweaks) for some examples.
 
 ## 📘 Guide
 
@@ -61,7 +63,7 @@ To use this plugin you will need:
 
 * PHP v5.6 minimum (Recommend PHP v7+)
 * WordPress v4.9.8 minimum
-* WooCommerce v3.0.0+
+* WooCommerce v3.6.0+
 * Pretty permalinks in Settings > Permalinks so that the custom endpoints are supported. **Default permalinks will not work.**
 * You may access the API over either HTTP or HTTPS, but HTTPS is recommended where possible.
 
@@ -89,7 +91,7 @@ See [documentation](#-documentation) on how to use all endpoints.
 
 ## ⭐ Support
 
-CoCart is released freely and openly. Feedback or ideas and approaches to solving limitations in CoCart is greatly appreciated.
+CoCart is released freely and openly. [Feedback or ideas](https://cocart.xyz/feedback/) and approaches to solving limitations in CoCart is greatly appreciated.
 
 CoCart is not supported via the [WooCommerce Helpdesk](https://woocommerce.com/). As the plugin is not sold via WooCommerce.com, the support team at WooCommerce.com is not familiar with it and may not be able to assist.
 
@@ -105,23 +107,9 @@ If you think you have found a bug in the plugin, a problem with the documentatio
 
 ## Contribute
 
-If you or your company use CoCart or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it and keep evolving the project.
-
-You'll be helping to ensure I can spend the time not just fixing bugs, adding features, releasing new versions, but also keeping the project afloat. Any contribution you make is a big help and is greatly appreciated.
-
-Please also consider starring ✨ and sharing 👍 the project repo! This helps the project getting known and grow with the community. 🙏
-
-I accept one-time donations and monthly via [BuyMeACoffee.com](https://www.buymeacoffee.com/sebastien)
-
-* [My PayPal](https://www.paypal.me/codebreaker)
-* [BuyMeACoffee.com](https://www.buymeacoffee.com/sebastien)
-* Bitcoin (BTC): `3L4cU7VJsXBFckstfJdP2moaNhTHzVDkKQ`
-* Ethereum (ETH): `0xc6a3C18cf11f5307bFa11F8BCBD51F355b6431cB`
-* Litecoin (LTC): `MNNy3xBK8sM8t1YUA2iAwdi9wRvZp9yRoi`
-
-If you have special requirements for a sponsorship, you can [email me](mailto:mailme@sebastiendumont.com) and we can talk.
-
 If you would like to contribute code to this project then please follow these [contribution guidelines](https://github.com/co-cart/co-cart/blob/master/CONTRIBUTING.md).
+
+Please consider starring ✨ and sharing 👍 the project repo! This helps the project getting known and grow with the community. 🙏
 
 Thank you for your support! 🙌
 
