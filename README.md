@@ -6,6 +6,7 @@
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/r/cart-rest-api-for-woocommerce.svg)](https://wordpress.org/plugins/cart-rest-api-for-woocommerce/#reviews)
 [![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/cart-rest-api-for-woocommerce.svg)](https://wordpress.org/plugins/cart-rest-api-for-woocommerce/)
 [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/co-cart/co-cart/blob/master/LICENSE.md)
+[![Build Status](https://scrutinizer-ci.com/g/co-cart/co-cart/badges/build.png?b=master)](https://scrutinizer-ci.com/g/co-cart/co-cart/build-status/master)
 
 **Contributors:** sebd86  
 **Donate link:** https://sebdumont.xyz/donate/  
@@ -14,8 +15,8 @@
 **Requires PHP:** 5.6  
 **Tested up to:** 5.2.2  
 **WC requires at least:** 3.0.0  
-**WC tested up to:** 3.6.4  
-**Stable tag:** 1.2.3  
+**WC tested up to:** 3.6.5  
+**Stable tag:** 2.0.0  
 **License:** GPL v2 or later  
 
 Control the cart via the REST-API for WooCommerce.
@@ -33,23 +34,17 @@ It allows you to use WooCommerce’s REST API to its full potential providing th
 Yes, it's free. But here's what you should _really_ care about:
 
 * The code adheres to the [WordPress Coding Standards](https://codex.wordpress.org/WordPress_Coding_Standards) and follows best practices and conventions.
-* There is nothing else out there.
+* There is no other REST API for WooCommerce that handles the cart. Your welcome.
 
 > None of the official WooCommerce library wrappers can be used with this REST API as they all require authentication which makes it difficult to use along with the other official REST API endpoints that WooCommerce provides.
 
-### What's the Catch?
-
-This is a non-commercial plugin. As such:
-
-* Development time for it is effectively being donated and is, therefore, limited.
-* Support inquiries may not be answered in a timely manner.
-* Critical issues may not be resolved promptly.
-
-If you have a customization/integration requirement then I'd love to [hear from you](https://cocart.xyz/feedback/).
-
-Please understand that this repository is not a place to seek help with configuration-related issues. Use it to report bugs or propose improvements.
+## Customization
 
 If you are looking for ways to customize CoCart, [check out the tweaks repository](https://github.com/co-cart/co-cart-tweaks) for some examples.
+
+## Feedback
+
+CoCart is released freely and openly. [Feedback or ideas](https://cocart.xyz/feedback/) and approaches to solving limitations in CoCart is greatly appreciated.
 
 ## 📘 Guide
 
@@ -91,11 +86,13 @@ See [documentation](#-documentation) on how to use all endpoints.
 
 ## ⭐ Support
 
-CoCart is released freely and openly. [Feedback or ideas](https://cocart.xyz/feedback/) and approaches to solving limitations in CoCart is greatly appreciated.
+This repository is not suitable for support. Please don't use the issue tracker for support requests, but for core CoCart issues only. Support can take place through the [community forum on wp.org](https://wordpress.org/support/plugin/cart-rest-api-for-woocommerce/) which is available for all CoCart users.
+
+Support requests in issues on this repository will be closed on sight.
 
 CoCart is not supported via the [WooCommerce Helpdesk](https://woocommerce.com/). As the plugin is not sold via WooCommerce.com, the support team at WooCommerce.com is not familiar with it and may not be able to assist.
 
-At present, I **do not offer a dedicated, premium support channel** for CoCart but will soon with CoCart Pro. Please understand this is a non-commercial plugin. As such:
+Please understand this is a non-commercial plugin. As such:
 
 * Development time for it is effectively being donated and is, therefore, limited.
 * Support inquiries may not be answered in a timely manner.
@@ -103,7 +100,7 @@ At present, I **do not offer a dedicated, premium support channel** for CoCart b
 
 ### 📝 Reporting Issues
 
-If you think you have found a bug in the plugin, a problem with the documentation, or want to see a new feature added, please [open a new issue](https://github.com/co-cart/co-cart/issues/new) and I will do my best to help you out.
+If you think you have found a bug in the plugin or want to see a new feature added, please [open a new issue](https://github.com/co-cart/co-cart/issues/new) and I will do my best to help you out.
 
 ## Contribute
 
